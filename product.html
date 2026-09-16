@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สินค้าทั้งหมด - PhoneCase Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>PhoneCase Lab</h2>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้า</a>
+      <a href="admin.html">แอดมิน</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>รายการสินค้าทั้งหมด</h1>
+    <div id="filter-bar" style="margin-bottom: 1.5rem;">
+      <a href="product.html" class="btn">ทั้งหมด</a>
+      <a href="product.html?mood=minimal" class="btn">Minimal</a>
+      <a href="product.html?mood=clear" class="btn">Clear</a>
+      <a href="product.html?mood=leather" class="btn">Leather</a>
+    </div>
+
+    <div id="product-list" class="grid"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

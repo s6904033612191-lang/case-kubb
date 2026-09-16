@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สั่งซื้อสินค้า - PhoneCase Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>PhoneCase Lab</h2>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="product.html">สินค้า</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 style="text-align: center;">ฟอร์มสั่งซื้อสินค้า</h1>
+    <form id="orderForm">
+      <label>ชื่อลูกค้า</label>
+      <input type="text" id="customerName" required placeholder="กรอกชื่อ-นามสกุล">
+
+      <label>เบอร์โทรศัพท์ / Line ID</label>
+      <input type="text" id="contact" required placeholder="08X-XXX-XXXX">
+
+      <label>รายการสินค้า</label>
+      <input type="text" id="items" readonly>
+
+      <label>จำนวนเงินรวม (บาท)</label>
+      <input type="text" id="total" readonly>
+
+      <label>หมายเหตุ / รุ่นโทรศัพท์เพิ่มเติม</label>
+      <textarea id="note" rows="3" placeholder="เช่น ระบุรุ่น iPhone 15 Pro"></textarea>
+
+      <button type="submit" class="btn" style="background: var(--text-main); color: #fff;">ยืนยันสั่งซื้อ</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

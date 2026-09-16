@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Minimal Pastel Case (iPhone 15/16)",
+    "mood": "minimal",
+    "type": "silicone",
+    "size": "Standard",
+    "price": 250,
+    "image": "images/minimal.jpg",
+    "description": "เคสซิลิโคนถนอมเครื่อง สัมผัสนุ่ม สีพาสเทล มินิมอล"
+  },
+  {
+    "id": 2,
+    "name": "Ultra Clear Tough Case (iPhone 15/16 Pro)",
+    "mood": "clear",
+    "type": "clear",
+    "size": "Pro",
+    "price": 290,
+    "image": "images/clear.jpg",
+    "description": "เคสใสกันกระแทก ขอบหนาพิเศษ โชว์สีเครื่องไม่เหลืองง่าย"
+  },
+  {
+    "id": 3,
+    "name": "Premium Leather MagSafe Case",
+    "mood": "leather",
+    "type": "leather",
+    "size": "Pro Max",
+    "price": 450,
+    "image": "images/leather.jpg",
+    "description": "เคสหนัง PU พรีเมียม พร้อมวงแหวน MagSafe ชาร์จไว"
+  },
+  {
+    "id": 4,
+    "name": "MagSafe Hybrid Armor Case",
+    "mood": "magsafe",
+    "type": "magsafe",
+    "size": "Standard",
+    "price": 390,
+    "image": "images/magsafe.jpg",
+    "description": "เคสกันกระแทกลายสปอร์ต รองรับ MagSafe แน่นหนา"
+  }
+]
